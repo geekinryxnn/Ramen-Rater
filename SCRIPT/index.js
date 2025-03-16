@@ -1,6 +1,7 @@
 const ramens = [
     { 
-        id: 1, name: "Shoyu Ramen", 
+        id: 1, 
+        name: "Shoyu Ramen", 
         restaurant: "Ichiran", 
         image: "Images/gyukotsu.jpg", 
         rating:  "5", 
@@ -34,6 +35,7 @@ const ramens = [
       comment:"Very healthy",
     },
 ];
+
 
 function displayRamens() {
     const ramenMenu = document.getElementById('ramen-menu');
@@ -78,3 +80,4 @@ function main() {
 }
 
 document.addEventListener('DOMContentLoaded', main);
+
